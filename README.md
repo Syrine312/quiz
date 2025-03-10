@@ -10,6 +10,7 @@
             justify-content: center;
             align-items: center;
             margin: 0;
+            background-color: antiquewhite;
         }
         .quiz-container {
             background: white;
