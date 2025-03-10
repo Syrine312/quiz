@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html>
   <head>
-    <meta charset="UTF-8" />
     <title>Quiz : Quelle est votre personnalité émergente ?</title>
     <style>
       body {
