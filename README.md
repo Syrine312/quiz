@@ -1,7 +1,9 @@
-
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Personnalité - Ennéagramme</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -292,7 +294,7 @@
     <!-- Avion pour l'animation des résultats -->
     <img src="https://cdn-icons-png.flaticon.com/512/1047/1047711.png" class="airplane" id="airplane">
     
-    <h1>Test de Personnalité </h1>
+    <h1>Test de Personnalité - Ennéagramme</h1>
     
     <div id="quiz-container">
         <div class="progress-text">Question <span id="current-question">1</span>/10</div>
@@ -352,115 +354,115 @@
 
             const questions = [
                 {
-                    question: "1. Quelle phrase vous correspond le plus ?",
+                    question: "1. Si tu étais un super-héros, quel pouvoir choisirais-tu ?",
                     options: [
-                        { text: "A) « Je veux que tout soit parfait. »", value: "A" },
-                        { text: "B) « J'aime aider et être apprécié(e). »", value: "B" },
-                        { text: "C) « Je veux réussir et être reconnu(e). »", value: "C" },
-                        { text: "D) « Je veux être unique et spécial(e). »", value: "D" },
-                        { text: "E) « J'ai besoin de comprendre avant d'agir. »", value: "E" },
-                        { text: "F) « Je cherche avant tout la sécurité et la stabilité. »", value: "F" },
-                        { text: "G) « Je veux profiter de la vie et éviter les contraintes. »", value: "G" },
-                        { text: "H) « J'aime diriger et prendre des décisions. »", value: "H" },
-                        { text: "I) « Je veux l'harmonie et éviter les conflits. »", value: "I" }
+                        { text: "A) «  Être parfait dans tout ce que je fais. »", value: "A" },
+                        { text: "B) «  Soigner les autres avec mes mains.. »", value: "B" },
+                        { text: "C) « Courir à une vitesse incroyable pour tout accomplir. »", value: "C" },
+                        { text: "D) «  Créer des illusions magnifiques. »", value: "D" },
+                        { text: "E) «Lire dans les pensées. »", value: "E" },
+                        { text: "F) « Prévoir l’avenir pour éviter les dangers. »", value: "F" },
+                        { text: "G) « Voyager dans le monde en un claquement de doigt. »", value: "G" },
+                        { text: "H) «  Contrôler les éléments (feu, vent, etc...). »", value: "H" },
+                        { text: "I) « Calmer instantanément les conflits. »", value: "I" }
                     ]
                 },
                 {
-                    question: "2. Comment réagissez-vous face à un défi ?",
+                    question: "2. Ta façon préférée de passer une journée libre ?",
                     options: [
-                        { text: "A) Je m'assure que tout soit fait à la perfection.", value: "A" },
-                        { text: "B) Je veux que tout le monde soit bien et en accord.", value: "B" },
-                        { text: "C) Je cherche la stratégie gagnante pour réussir.", value: "C" },
-                        { text: "D) Je me demande comment le rendre unique et créatif.", value: "D" },
-                        { text: "E) Je réfléchis longuement avant d'agir.", value: "E" },
-                        { text: "F) J'évalue les risques avant de me lancer.", value: "F" },
-                        { text: "G) J'essaie d'en tirer du plaisir et de m'amuser.", value: "G" },
-                        { text: "H) Je prends le contrôle de la situation.", value: "H" },
-                        { text: "I) J'essaie d'éviter les conflits et de calmer tout le monde.", value: "I" }
+                        { text: "A)  Ranger, organiser ou planifier à l’avance.", value: "A" },
+                        { text: "B) Faire du bénévolat ou aider un proche.", value: "B" },
+                        { text: "C) Travailler sur un projet personnel ambitieux.", value: "C" },
+                        { text: "D) Écrire, dessiner ou écouter de la musique profonde.", value: "D" },
+                        { text: "E) Lire, regarder un documentaire ou apprendre quelque chose.", value: "E" },
+                        { text: "F) Rester à la maison, bien au chaud, dans ma routine.", value: "F" },
+                        { text: "G) Sortir, explorer de nouveaux endroits ou improviser.", value: "G" },
+                        { text: "H) Gérer un événement ou prendre des décisions.", value: "H" },
+                        { text: "I) Être avec des gens sans prise de tête, dans la bonne humeur.", value: "I" }
                     ]
                 },
                 {
-                    question: "3. Dans un groupe, quel rôle prenez-vous naturellement ?",
+                    question: "3. Face à un défi difficile, tu...",
                     options: [
-                        { text: "A) Celui qui fixe des règles et cherche la perfection.", value: "A" },
-                        { text: "B) Celui qui soutient et aide les autres.", value: "B" },
-                        { text: "C) Celui qui motive et pousse tout le monde vers la réussite.", value: "C" },
-                        { text: "D) Celui qui exprime ses idées et émotions.", value: "D" },
-                        { text: "E) Celui qui observe et analyse avant d'agir.", value: "E" },
-                        { text: "F) Celui qui veut que tout soit sécurisé et stable.", value: "F" },
-                        { text: "G) Celui qui cherche à détendre l'ambiance et à s'amuser.", value: "G" },
-                        { text: "H) Celui qui prend la tête du groupe et donne des directives.", value: "H" },
-                        { text: "I) Celui qui cherche à apaiser les tensions et à harmoniser le groupe.", value: "I" }
+                        { text: "A) Analyses chaque étape pour éviter les erreurs.", value: "A" },
+                        { text: "B) Te tournes vers des personnes de confiance.", value: "B" },
+                        { text: "C) Te lances sans hésiter, prêt à gagner.", value: "C" },
+                        { text: "D) Ressens profondément la situation avant d’agir.", value: "D" },
+                        { text: "E)  Cherches toutes les infos avant de choisir.", value: "E" },
+                        { text: "F) Évalues les risques et cherches la sécurité.", value: "F" },
+                        { text: "G) Te dis que ça va aller, et tu fonces !", value: "G" },
+                        { text: "H) Agis rapidement et prends les choses en main.", value: "H" },
+                        { text: "I) Essaies d’écouter chacun et trouver un compromis.", value: "I" }
                     ]
                 },
                 {
-                    question: "4. Face à un problème, quelle est votre approche ?",
+                    question: "4. Ta devise de vie pourrait être...",
                     options: [
-                        { text: "A) Trouver la solution parfaite, sans erreur.", value: "A" },
-                        { text: "B) Chercher à aider et à faire plaisir aux autres.", value: "B" },
-                        { text: "C) Aller droit au but et réussir à tout prix.", value: "C" },
-                        { text: "D) Suivre mon instinct et mes émotions.", value: "D" },
-                        { text: "E) Analyser toutes les données avant d'agir.", value: "E" },
-                        { text: "F) Choisir la solution la plus sécurisante.", value: "F" },
-                        { text: "G) Trouver la solution la plus agréable et éviter le stress.", value: "G" },
-                        { text: "H) Prendre des décisions rapidement et imposer une solution.", value: "H" },
-                        { text: "I) Chercher une solution qui contente tout le monde.", value: "I" }
+                        { text: "A) Fais-le bien ou ne le fais pas.", value: "A" },
+                        { text: "B) L’amour guérit tout.", value: "B" },
+                        { text: "C) Pas de succès sans effort.", value: "C" },
+                        { text: "D) Reste fidèle à toi-même.", value: "D" },
+                        { text: "E) La connaissance, c’est le pouvoir.", value: "E" },
+                        { text: "F) Mieux vaut prévenir que guérir.", value: "F" },
+                        { text: "G)  Profite du moment.", value: "G" },
+                        { text: "H) Qui commande, gagne.", value: "H" },
+                        { text: "I) Vivons en paix, ensemble.", value: "I" }
                     ]
                 },
                 {
-                    question: "5. Quel mot vous définit le mieux ?",
+                    question: "5. Quel type de film préfères-tu ?",
                     options: [
-                        { text: "A) Exigeant(e).", value: "A" },
-                        { text: "B) Généreux(se).", value: "B" },
-                        { text: "C) Ambitieux(se).", value: "C" },
-                        { text: "D) Sensible.", value: "D" },
-                        { text: "E) Curieux(se).", value: "E" },
-                        { text: "F) Loyal(e).", value: "F" },
-                        { text: "G) Optimiste.", value: "G" },
-                        { text: "H) Déterminé(e).", value: "H" },
-                        { text: "I) Diplomate.", value: "I" }
+                        { text: "A) Un film inspirant avec une belle morale.", value: "A" },
+                        { text: "B) Une histoire émouvante pleine de générosité.", value: "B" },
+                        { text: "C) Une success story ou un film d’action.", value: "C" },
+                        { text: "D) Un drame romantique ou artistique.", value: "D" },
+                        { text: "E) Un documentaire captivant.", value: "E" },
+                        { text: "F) Un thriller psychologique avec du suspense.", value: "F" },
+                        { text: "G) Une comédie pleine d’aventures.", value: "G" },
+                        { text: "H) Un film de guerre ou de stratégie.", value: "H" },
+                        { text: "I) Un film familial ou feel good.", value: "I" }
                     ]
                 },
                 {
-                    question: "6. Quelle est votre plus grande peur ?",
+                    question: "6. Quand tu rencontres quelqu’un de nouveau...",
                     options: [
-                        { text: "A) Faire une erreur.", value: "A" },
-                        { text: "B) Ne pas être aimé(e).", value: "B" },
-                        { text: "C) Échouer.", value: "C" },
-                        { text: "D) Être banal.", value: "D" },
-                        { text: "E) Être ignoré(e).", value: "E" },
-                        { text: "F) Être en insécurité.", value: "F" },
-                        { text: "G) Être enfermé(e) dans une routine.", value: "G" },
-                        { text: "H) Perdre le contrôle.", value: "H" },
-                        { text: "I) Le conflit.", value: "I" }
+                        { text: "A) Tu veux faire bonne impression immédiatement.", value: "A" },
+                        { text: "B) Tu es attentionné(e) et à l’écoute.", value: "B" },
+                        { text: "C) Tu cherches à te démarquer et montrer tes réussites.", value: "C" },
+                        { text: "D) Tu observes leur profondeur émotionnelle.", value: "D" },
+                        { text: "E) Tu poses des questions pour mieux les comprendre.", value: "E" },
+                        { text: "F) Tu restes prudent(e), tu observes d’abord.", value: "F" },
+                        { text: "G) Tu rigoles facilement.", value: "G" },
+                        { text: "H) Tu diriges la conversation.", value: "H" },
+                        { text: "I) Tu fais tout pour que tout le monde se sente à l’aise.", value: "I" }
                     ]
                 },
                 {
-                    question: "7. Quel métier vous attire le plus ?",
-                    options: [
-                        { text: "A) Juge ou expert.", value: "A" },
-                        { text: "B) Médecin ou travailleur social.", value: "B" },
-                        { text: "C) Entrepreneur ou sportif de haut niveau.", value: "C" },
-                        { text: "D) Artiste ou écrivain.", value: "D" },
-                        { text: "E) Chercheur ou philosophe.", value: "E" },
-                        { text: "F) Policier ou fonctionnaire.", value: "F" },
-                        { text: "G) Voyageur ou créateur de contenu.", value: "G" },
-                        { text: "H) PDG ou militaire.", value: "H" },
-                        { text: "I) Coach ou médiateur.", value: "I" }
+                    question: "7. Si tu étais un animal, tu serais...",
+                     options: [
+                        { text: "A) Une fourmi.", value: "A" },
+                        { text: "B) Un chien.", value: "B" },
+                        { text: "C)  Un tigre.", value: "C" },
+                        { text: "D)  Un cygne.", value: "D" },
+                        { text: "E)Un hibou.", value: "E" },
+                        { text: "F)  Une tortue.", value: "F" },
+                        { text: "G) Un singe.", value: "G" },
+                        { text: "H) Un aigle.", value: "H" },
+                        { text: "I) Un panda.", value: "I" }
                     ]
                 },
                 {
-                    question: "8. Quelle est votre plus grande qualité ?",
+                    question: "8. Quelle qualité te décrit le mieux ?", 
                     options: [
-                        { text: "A) Mon sens du détail.", value: "A" },
-                        { text: "B) Mon altruisme.", value: "B" },
-                        { text: "C) Ma motivation.", value: "C" },
-                        { text: "D) Ma créativité.", value: "D" },
-                        { text: "E) Mon intelligence.", value: "E" },
-                        { text: "F) Ma fidélité.", value: "F" },
-                        { text: "G) Mon enthousiasme.", value: "G" },
-                        { text: "H) Mon leadership.", value: "H" },
-                        { text: "I) Ma diplomatie.", value: "I" }
+                        { text: "A) La rigueur.", value: "A" },
+                        { text: "B) La générosité.", value: "B" },
+                        { text: "C) L’énergie.", value: "C" },
+                        { text: "D) La sensibilité.", value: "D" },
+                        { text: "E) L’intelligence.", value: "E" },
+                        { text: "F)  La loyauté.", value: "F" },
+                        { text: "G) La joie.", value: "G" },
+                        { text: "H) L’assurance.", value: "H" },
+                        { text: "I)  L’harmonie.", value: "I" }
                     ]
                 },
                 {
@@ -478,17 +480,17 @@
                     ]
                 },
                 {
-                    question: "10. Comment prenez-vous une décision importante ?",
+                    question: "10. Ta plus grande motivation, c’est..." ,
                     options: [
-                        { text: "A) Je réfléchis longtemps pour ne pas faire d'erreur.", value: "A" },
-                        { text: "B) Je consulte mes proches pour être sûr(e).", value: "B" },
-                        { text: "C) Je choisis ce qui me mènera au succès.", value: "C" },
-                        { text: "D) Je me fie à mon intuition et à mes émotions.", value: "D" },
-                        { text: "E) Je collecte un maximum d'informations.", value: "E" },
-                        { text: "F) Je cherche ce qui est le plus sûr.", value: "F" },
-                        { text: "G) Je suis impulsif(ve) et je me lance.", value: "G" },
-                        { text: "H) Je prends rapidement les choses en main.", value: "H" },
-                        { text: "I) J'essaie d'harmoniser tous les avis.", value: "I" }
+                        { text: "A) Bien faire et être respecté(e).", value: "A" },
+                        { text: "B) Être utile aux autres.", value: "B" },
+                        { text: "C) Réussir et être reconnu(e).", value: "C" },
+                        { text: "D) Vivre une vie pleine de sens.", value: "D" },
+                        { text: "E) Savoir et comprendre.", value: "E" },
+                        { text: "F)  Se sentir en sécurité.", value: "F" },
+                        { text: "G) Être libre et heureux(se).", value: "G" },
+                        { text: "H) Avoir de l’influence.", value: "H" },
+                        { text: "I) Vivre en paix avec les autres.", value: "I" }
                     ]
                 }
             ];
