@@ -2,7 +2,7 @@
 <html >
 <head>
     
-    <title>Test de Personnalité - Ennéagramme</title>
+    <title>Test de Personnalité </title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
