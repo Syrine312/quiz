@@ -293,7 +293,7 @@
     <!-- Avion pour l'animation des résultats -->
     <img src="https://cdn-icons-png.flaticon.com/512/1047/1047711.png" class="airplane" id="airplane">
     
-    <h1>Test de Personnalité - Ennéagramme</h1>
+    <h1>Test de Personnalité</h1>
     
     <div id="quiz-container">
         <div class="progress-text">Question <span id="current-question">1</span>/10</div>
